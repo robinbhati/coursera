@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+<style >
+	/*basic style*/
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: White;
+	}
+	h1 {
+		margin: 100px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	.sub1 {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: green;
+		
+	}
+	.sub2 {
+		float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: maroon;
+		
+	}
+	.sub3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: tomato;
+		
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: gray;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tablet version*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	/*mobile version*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body >
+<h1>Our Menu !!!</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub1">Veg </p>
+			<p class="content">
+			  Vegetarian recipes that are simple, easy & quick to make. These vegan recipes include all kind of north Indian, south Indian cuisines,
+				Dinner, Lunch and Breakfast.
+				Once you go vegetarian, beans, soy and every single vegetable in the entire world become your best friends. Therefore, 
+				after you've been a veggie for a while, 
+				you kind of develop a favorite dish -- a solid standby you can always go to when the going gets tough.
+				Thankfully, many different cuisines embrace vegetarian dishes. It can be hard to choose your absolute favorite Indian meal 
+				or your favorite pasta dish
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub2">Non-Veg</p>
+			<p class="content">
+				Hindi Non Vegetarian Recipes-Often dubbed as a vegetarian's paradise, India is loaded with an enviable array of vegetarian delights.
+				But not for a moment let that fact trick you into believing, 
+				that India has any dearth of rich non-veg delicacies. From the robust lamb and chicken preparations from up north to the delectable
+				sea-food fare from the coastal parts of the country; 
+				almost every second state, every third city in the country has that one non-vegetarian specialty that has pulled the attraction of
+				true food lovers from both home and abroad across centuries.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="sub3">Drinks</p>
+			<p class="content">
+				While it is summer and we love ice creams, just how many scoops can we afford to have day after day? But ice pops and cold desserts are 
+				not the only solutions to the scorching heat. 
+				In fact, nothing can really beat the satisfaction of downing an entire glass of fruit juice in one breath. Fresh, tasty and healthy, 
+				fruity drinks are a good source of energy after a long day at work. By thinking outside the box, you can even turn the "boring" fruit
+				juices into exciting fruity drinks that don't compromise your diet and health. You can also spruce up your drinks with herbs and spices 
+				to add your special personal touch.
+		</p>
+	</div>
+</body>
+</html>
