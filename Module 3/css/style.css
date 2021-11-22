@@ -40,7 +40,7 @@ section {
 	overflow: auto;
 }
 
-#hilsha {
+#vegetarian {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -55,7 +55,7 @@ section {
 	color: #FFFF00;
 }
 
-#biryani {
+#non-vegetarian {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -70,7 +70,7 @@ section {
 	color: #FFFF00;
 }
 
-#chingri {
+#drinks {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -85,17 +85,17 @@ section {
 	padding: 5px;
 }
 
-#hilsha-div {
+#vegetarian-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#biryani-div {
+#non-vegetarian-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#chingri-div {
+#drinks-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
